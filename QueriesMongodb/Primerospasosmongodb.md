@@ -1,27 +1,33 @@
-#Primeros comando en mongodb
+# Primeros comandos de Mongo DB
 
-### Mostrar las base de datos
-`show dbs;`
-`show databases;`
+### Mostrar las bases de datos
 
-### Crear una base de datos 
-*En MongoDB para crear una base de datos debe contener por lo menos una colección*
+` show dbs;`
+` show databases;`
 
-`use nombredelabasededatos`
+### Crear una base de datos
+*En mongodb para crear un base de datos debe contener por lo menos una coleccion*
+
+`use nombre de la base de datos`
+*Ejemplo: *
+
+`use db3;`
+
+### Como crear una colección
+
+`db.createCollection("Nombre de la coleccion");`
+
 *Ejemplo:*
 
-`use db3`
+`db.createCollection("Alumnos");
+`
 
-### Create una colección
+### Mostrar las colecciones  de la base de datos
 
-`db.createCollection ("Nombredelacoleccion")`
-
-*eJEMPLO*
-
-`db.createCollection ("Alumnos")`
-
-### Mostrar laas colecciónes de la base de datos
-
-*Ejemplo*
+*Ejemplo:*
 
 `show collections;`
+
+
+
+

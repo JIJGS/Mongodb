@@ -1,16 +1,31 @@
-# Introduccion a MongoDB
 
-## Ejemplo de sintaxis de un json
+# Introduccion a Mongo DB 
 
-´
-{nombre : "luis",eda: 45,
-tel:}
-´
+## Ejemplo de Sintaxis de JSO 
 
-
-# Introduccion a MongoDB
-## Ejemplo de sintaxis de json mas complejo
-
+`
 {
-    
+    nombre : "Luis" ,
+    Edad: 45 ,
+    tel: 777,
 }
+`
+
+# Ejemplo se Sintaxis más complejos
+
+`
+{ 
+    "nombre" : Luisa,
+    Edad: 42 ,
+    tel: 777,
+    aficiones : [
+        "Ejercicio",
+        "Programar",
+        "Correr"
+    ],
+    Skill: {
+       "Programacion": "20%",
+       "Diseño web": "45%" 
+    }
+}
+`
